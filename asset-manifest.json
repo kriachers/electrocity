@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/electrocity/static/css/main.afe19352.css",
-    "main.js": "/electrocity/static/js/main.82566e99.js",
+    "main.js": "/electrocity/static/js/main.0f8ead3f.js",
     "static/js/787.b8b422a5.chunk.js": "/electrocity/static/js/787.b8b422a5.chunk.js",
     "static/media/Roboto-Bold.woff2": "/electrocity/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
     "static/media/Roboto-Regular.woff2": "/electrocity/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
     "index.html": "/electrocity/index.html",
     "main.afe19352.css.map": "/electrocity/static/css/main.afe19352.css.map",
-    "main.82566e99.js.map": "/electrocity/static/js/main.82566e99.js.map",
+    "main.0f8ead3f.js.map": "/electrocity/static/js/main.0f8ead3f.js.map",
     "787.b8b422a5.chunk.js.map": "/electrocity/static/js/787.b8b422a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afe19352.css",
-    "static/js/main.82566e99.js"
+    "static/js/main.0f8ead3f.js"
   ]
 }
