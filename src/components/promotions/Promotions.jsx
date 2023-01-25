@@ -8,6 +8,7 @@ const BannerData = [
         img: './banner/icons/id1.png',
         imgRetina: './banner/icons/2x/id1@2x.jpg',
         imgWebp: './banner/icons/webp/id1.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id1_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -22,6 +23,7 @@ const BannerData = [
         img: './banner/icons/id2.jpg',
         imgRetina: './banner/icons/2x/id2@2x.jpg',
         imgWebp: './banner/icons/webp/id2.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id2_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% на мониторы Samsung. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -36,6 +38,7 @@ const BannerData = [
         img: './banner/icons/id3.jpg',
         imgRetina: './banner/icons/2x/id2@2x.jpg',
         imgWebp: './banner/icons/webp/id3.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id3_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары на технику HP. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -50,6 +53,7 @@ const BannerData = [
         img: './banner/icons/id4.jpg',
         imgRetina: './banner/icons/2x/id4@2x.jpg',
         imgWebp: './banner/icons/webp/id4.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id4_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 80% на саундбар. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -64,6 +68,7 @@ const BannerData = [
         img: './banner/icons/id5.jpg',
         imgRetina: './banner/icons/2x/id5@2x.jpg',
         imgWebp: './banner/icons/webp/id5.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id5_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки  50% на второй  товар Bouch. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -78,6 +83,7 @@ const BannerData = [
         img: './banner/icons/id6.jpg',
         imgRetina: './banner/icons/2x/id6@2x.jpg',
         imgWebp: './banner/icons/webp/id6.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id6_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите Iphone 13 в рассрочку. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -91,6 +97,7 @@ const BannerData = [
         img: './banner/icons/id7.png',
         imgRetina: './banner/icons/2x/id7@2x.jpg',
         imgWebp: './banner/icons/webp/id7.webp',
+        imgWebpRetina: './banner/icons/webp-retina/id7_2x.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -103,6 +110,7 @@ const BannerData = [
         title: 'Суперскидки по бонусной карте',
         img: './banner/icons/id8.png',
         imgRetina: './banner/icons/2x/id8@2x.jpg',
+        imgWebpRetina: './banner/icons/webp-retina/id8_2x.webp',
         imgWebp: './banner/icons/webp/id8.webp',
         descr: 
             [
@@ -116,6 +124,7 @@ const BannerData = [
         title: 'Ликвидация! Скидки до 70%',
         img: './banner/icons/id9.svg',
         imgRetina: './banner/icons/2x/id9@2x.svg',
+        imgWebpRetina: './banner/icons/id9.svg',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],

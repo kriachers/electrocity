@@ -8,10 +8,9 @@ function OfferPage() {
     return ( 
     <div className="offer container">
         
-
         <picture> 
             {
-                offer.imgWebp ? <source className="offer__img" srcSet={`${offer.imgWebp}`} type="image/webp"/> : ''
+                offer.imgWebp ? <source className="offer__img" srcSet={`${offer.imgWebp}, ${offer.imgWebpRetina} 2x`} type="image/webp"/> : ''
             }
                 <img className="offer__img" src={`${offer.img}`}  alt={`Баннер акции "${offer.title}"`}/>
         </picture>
