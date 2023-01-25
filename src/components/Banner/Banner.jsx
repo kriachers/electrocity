@@ -14,7 +14,7 @@ function Banner (props) {
     return ( 
     <Link to="/offer">
             
-            <picture  onClick={() => value.makeOffer(props.item)}> 
+            <picture onClick={() => value.makeOffer(props.item)}> 
             {
               props.item.imgWebp ? <source srcset={`${props.item.imgWebp}`} type="image/webp" className="banner"/>  : ''
             }
