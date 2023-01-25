@@ -1,0 +1,30 @@
+
+.header__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-toolbar__wrapper {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E8E8E8;
+}
+
+.header-toolbar__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.header-toolbar__item {
+    display: flex;
+    align-items: center;   
+    gap: 6px;
+}
+
+@media (max-width: 442px) {
+    .header-toolbar__wrapper {
+        display: none;
+    }
+}

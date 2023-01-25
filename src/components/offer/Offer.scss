@@ -1,0 +1,56 @@
+.offer {
+    margin-bottom: 72px;
+}
+
+.offer__img {
+    margin-bottom: 36px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.offer__title {
+    margin-bottom: 18px;
+}
+
+.offer__date {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #939393;
+}
+
+.offer__descr:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .offer__img {
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .offer {
+        margin-bottom: 48px;
+    }
+
+    .offer__img {
+        border-radius: 10px;
+        margin-bottom: 24px;
+    }
+
+
+.offer__title {
+    margin-bottom: 12px;
+}
+
+.offer__date {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+}

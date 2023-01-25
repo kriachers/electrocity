@@ -1,0 +1,15 @@
+
+@use './variables' as *;
+
+
+@import url(./_reset.scss);
+@import url(./_commons.scss);
+
+
+@import url(./components/header/Header.scss);
+@import url(./components/promotions/Promotions.scss);
+@import url(./components/Banner/Banner.scss);
+@import url(./components/footer/Footer.scss);
+@import url(./components/offer/Offer.scss);
+@import url(./components/header/dropdown/Dropdown.scss);
+@import url(./components/header/toolbar/Toolbar.scss);

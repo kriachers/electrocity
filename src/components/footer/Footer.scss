@@ -1,0 +1,133 @@
+.footer__wrapper {
+    background: #F4F4F4;
+}
+
+
+.footer {
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__inner:nth-child(1) {
+    margin-bottom: 48px;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 62px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.footer-contact__item {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.footer__copy {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8D8D8D;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.footer-social__item {
+    padding: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #8D8D8D;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-social__item:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+    .footer__nav,
+    .footer__contact {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+   .footer__inner:nth-child(1) {
+    flex-direction: column;
+    gap: 24px;
+    align-items:flex-start;
+   }
+
+   .footer__inner:nth-child(1) {
+    margin-bottom: 24px;
+}
+}
+
+@media (max-width: 570px) {
+    .footer__nav {
+        column-gap: 25px;
+        row-gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .footer__contact {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    .footer__inner:nth-child(1) {
+     flex-direction: column;
+     gap: 18px;
+     align-items:flex-start;
+    }
+ 
+    .footer__inner:nth-child(1) {
+     margin-bottom: 12px;
+ }
+
+ .footer__inner:nth-child(2) {
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: flex-start;
+   }
+ }
+
+ @media (max-width: 350px) {
+    .footer {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .footer__link,
+    .footer-contact__title {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

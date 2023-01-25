@@ -1,0 +1,33 @@
+.promotions__title {
+    margin-bottom: 36px;
+}
+
+
+.propmotions__tile {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
+    gap: 34px;
+
+}
+
+.promotions {
+    margin-bottom: 96px;
+}
+
+@media (max-width: 768px) {
+    .propmotions__tile {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .promotions__title {
+        margin-bottom: 24px;
+    }
+
+    .propmotions__tile {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    
+}

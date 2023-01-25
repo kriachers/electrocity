@@ -1,0 +1,108 @@
+@use './variables' as *;
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url(../public/fonts/Roboto-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url(../public/fonts/Roboto-Bold.woff2);
+}
+
+body {
+        font-family: 'Roboto';
+        font-weight: 400;
+}
+
+button {
+        font-family: 'Roboto';
+        font-weight: 400;
+}
+
+
+p, li, a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blackColor;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 42px;
+    color: $blackColor;
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: $blackColor;
+    
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: $blackColor;
+}
+
+.container {
+    margin: 0px 150px;
+    max-width: 1150px;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    h3 {
+    font-size: 26px;
+    }
+
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+        .container {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+}
+
+@media (max-width: 350px) {
+
+        .container {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+}
+
+
+
