@@ -16,7 +16,7 @@ const dropdownData = [
     },
     {
         title: 'Фото и видеотехника',
-        icon: './header/dropdown/photo.jpg',
+        icon: './header/dropdown/photo.svg',
         url: '#'
     },
     {

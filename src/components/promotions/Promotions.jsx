@@ -7,6 +7,7 @@ const BannerData = [
         date: 'c 8 октября до 26 октября',
         img: './banner/icons/id1.png',
         imgRetina: './banner/icons/2x/id1@2x.jpg',
+        imgWebp: './banner/icons/webp/id1.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -20,6 +21,7 @@ const BannerData = [
         date: 'c 1 октября до 23 октября',
         img: './banner/icons/id2.jpg',
         imgRetina: './banner/icons/2x/id2@2x.jpg',
+        imgWebp: './banner/icons/webp/id2.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% на мониторы Samsung. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -33,6 +35,7 @@ const BannerData = [
         date: 'с 28 сентября до 20 октября',
         img: './banner/icons/id3.jpg',
         imgRetina: './banner/icons/2x/id2@2x.jpg',
+        imgWebp: './banner/icons/webp/id3.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары на технику HP. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -46,6 +49,7 @@ const BannerData = [
         date: 'c 28 сентября до 15 октября',
         img: './banner/icons/id4.jpg',
         imgRetina: './banner/icons/2x/id4@2x.jpg',
+        imgWebp: './banner/icons/webp/id4.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 80% на саундбар. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -59,6 +63,7 @@ const BannerData = [
         date: 'c 15 сентября до 26 октября',
         img: './banner/icons/id5.jpg',
         imgRetina: './banner/icons/2x/id5@2x.jpg',
+        imgWebp: './banner/icons/webp/id5.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки  50% на второй  товар Bouch. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -72,6 +77,7 @@ const BannerData = [
         class: 'banner-apple',
         img: './banner/icons/id6.jpg',
         imgRetina: './banner/icons/2x/id6@2x.jpg',
+        imgWebp: './banner/icons/webp/id6.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите Iphone 13 в рассрочку. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -84,6 +90,7 @@ const BannerData = [
         title: 'Поделись мнением!',
         img: './banner/icons/id7.png',
         imgRetina: './banner/icons/2x/id7@2x.jpg',
+        imgWebp: './banner/icons/webp/id7.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],
@@ -96,6 +103,7 @@ const BannerData = [
         title: 'Суперскидки по бонусной карте',
         img: './banner/icons/id8.png',
         imgRetina: './banner/icons/2x/id8@2x.jpg',
+        imgWebp: './banner/icons/webp/id8.webp',
         descr: 
             [
                 ['В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка и при оформлении заказа укажите промокод "GAMER" для активации скидки.'],

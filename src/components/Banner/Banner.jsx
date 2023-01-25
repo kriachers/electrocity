@@ -13,7 +13,13 @@ function Banner (props) {
     const {offer} = useContext(Context)
     return ( 
     <Link to="/offer">
-            <img src={`${props.img}`} alt={`Баннер акции "${props.item.title}"`} className="banner" onClick={() => value.makeOffer(props.item)}/>
+            
+            <picture  onClick={() => value.makeOffer(props.item)}> 
+            {
+              props.item.imgWebp ? <source srcset={`${props.item.imgWebp}`} type="image/webp" className="banner"/>  : ''
+            }
+                <img src={`${props.img}`}  alt={`Баннер акции "${props.item.title}"`} className="banner"/>
+              </picture>
     </Link>);
 }
 
