@@ -24,13 +24,13 @@ function App() {
     <>
      <Context.Provider value={{offer, makeOffer}}>
        
-          <BrowserRouter>
+          <HashRouter basename='/'>
           <Header></Header>
             <Routes>
                 <Route exact path="/" element={ <Promotions/> }></Route>
                 <Route path="/offer" element={ <OfferPage/> }></Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         <Footer></Footer>
       </Context.Provider>
     </>
