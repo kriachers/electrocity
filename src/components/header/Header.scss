@@ -130,6 +130,10 @@
     color: $pinkColor
 }
 
+.header-burger__wrapper {
+    width: 100%;
+}
+
 .header__burger-button {
     display: none;
     position: relative;
@@ -277,6 +281,7 @@
     .header-main__search {
         height: 38px;
         padding: 6px 18px 6px 42px;
+        width: 100%;
     }
     .header-main-search__input {
         display: inline-block;
