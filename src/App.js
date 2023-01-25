@@ -24,7 +24,7 @@ function App() {
     <>
      <Context.Provider value={{offer, makeOffer}}>
        
-          <HashRouter basename='/electrocity'>
+          <HashRouter>
           <Header></Header>
             <Routes>
                 <Route exact path="/" element={ <Promotions/> }></Route>
