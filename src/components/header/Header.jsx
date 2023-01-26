@@ -8,7 +8,7 @@ import Toolbar from "./toolbar/Toolbar";
 const menuData = [
     {
         title: 'Акции',
-        url: '#'
+        url: '%PUBLIC_URL%'
     },
     {
         title: 'Смартфоны',

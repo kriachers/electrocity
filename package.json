@@ -1,7 +1,6 @@
 {
 
   "name": "electrocity",
-  "homepage": "https://kriachers.github.io/electrocity/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
